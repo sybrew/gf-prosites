@@ -1,0 +1,197 @@
+/* CSS FILE - Just basic settings are filled in (I didn't beautify them, that's for you to do). Feel free to edit, delete, merge, etc... all errors here are forgivable :) Enjoy! */
+
+/* main form class */
+.gform_upgrade {
+	position: relative;
+	float: left;
+	display: block;
+	width: 100%;
+} 
+
+/* The "Upgrade Site (siteurl)" title */
+.upgradetitle {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	background-color: #fff;
+	z-index: 100;
+	box-shadow: 0px 0px 2px #ccc;
+}
+
+/* What's below the title */
+.prositesupgrade {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px 0px 20px 20px;
+	color: blueviolet;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	list-style-type: none !important;
+	box-shadow: 0px 1px 1px #ccc;
+	z-index: 1000;
+}
+
+ul .prositecurrentlevel,
+ul .prositecurrentime {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none !important;
+}
+
+/* I want to (from...) */
+.entryselect {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	box-shadow: 0px 0px 5px #ccc inset;
+}
+
+/* Don't hide this field although it's autoselected, it will deselect when a user selects a different option */
+.extendsub {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 20px 20px 29px 20px;
+	box-shadow: 1px 1px 5px #ccc;
+	line-height: 1.5em;
+}
+
+/* extending period buttons */
+.extendperiod {
+	position: relative;
+	display: block;
+	float: left;
+	width: 97%;
+	margin: 0;
+	padding: 20px 20px 29px 20px;
+	box-shadow: 1px 1px 5px #ccc;
+	margin-left: 1.5%;
+}
+
+/* upgrade level select */
+.upgradesub {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 20px 20px 29px 20px;
+	box-shadow: 1px 1px 5px #ccc;
+	line-height: 1.5em;
+}
+
+/* upgrade period select */
+.upgradeperiod {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 32.88%;
+	margin: 0;
+	padding: 20px 20px 29px 20px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+/* downgrade subscription select */
+.downsub {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 20px;
+	box-shadow: 1px 1px 5px #ccc;
+	width: 100%;
+	line-height: 1.5em;
+}
+
+/* downgrade period select */
+.downperiod {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 32.88%;
+	margin: 0;
+	padding: 20px 20px 29px 20px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+/* Downgrading to Free notice */
+.freenotice {
+	position: relative;
+	display: block;
+	float: left;
+	width: 97%;
+	margin: 1% 0 0 1.5%;
+	padding: 20px;
+	border: 1px solid green;
+	box-shadow: 1px 1px 5px #ccc;
+	border-radius: 3px;
+	color: green;
+}
+
+/* discount box */
+.discountcalc {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 97%;
+	margin: 1% 0 0 1.5%;
+	padding: 20px;
+	box-shadow: 1px 1px 5px #ccc;
+	border-radius: 3px;
+	color: green;
+}
+
+/* total price */
+.totalcalc {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 20px 20px 24px 20px;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+	border-radius: 3px;
+	border-top: 1px solid green;
+}
+
+/* hidden conditional logic thingy */
+.totalhidden {
+	position: absolute;
+	display: none;
+	height: 0px;
+	right: 9001px;
+	bottom: 13337px;
+}
+
+.discountnotice {
+	position: relative;
+	display: block;
+	float: left;
+	width: 97%;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 20px;
+	margin-left: 1.5%;
+	margin-top: 2%;
+	color:  green;
+}
+
+/* hiding my comments - remove this if you want to display comments for your users */
+.gfield_description {
+	display: none;
+}
