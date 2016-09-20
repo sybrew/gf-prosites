@@ -23,7 +23,9 @@ A: You simply need to register the user meta once for Gravity Forms to recognize
 
 
 #THE UPGRADE PLUGIN
-The second plugin, the upgrade, allows you to bypass wpmudev's prosites auto-generated default upgrade/downgrade page (usually named "yoursite.com/prosite").
+The second plugin, the upgrade, allows you to bypass wpmudev's prosites auto-generated default upgrade/downgrade page (usually named "yoursite.com/prosite"). All functionality within Pro Sites remains, this little plugin just injects the Pro Site registration and the timestamp (UNIX) in the database.
+
+The Pro Sites Upgrade form takes data from Pro Sites and manipulates it to form a very advanced form, which later, after all fields have been correctly filled in by the user and submitted, the plugin will inject a new expiration data into the prosites database and add used payment information for the upgrade form to later re-use and calculate.
 
 ## Upgrade Installation
 Extract the plugin from it's respective folder structure and upload it to your /plugins folder. Be sure to follow the notes inside the plugin before activating and using. 
